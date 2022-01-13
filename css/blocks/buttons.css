@@ -1,0 +1,24 @@
+.button-outline:hover {
+    background-color: #F72464;
+    color: #FFFFFF;
+}
+
+.button-outline {
+    display: inline-block;
+    padding: 10px 40px 11px; /* up  left-right down */
+    background: #FFFFFF;
+    border: 1px solid #F72464;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #777777;
+    transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}

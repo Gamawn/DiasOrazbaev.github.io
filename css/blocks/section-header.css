@@ -1,0 +1,33 @@
+.section__header {
+    margin-bottom: 40px;
+}
+
+
+.section__header-title {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 56px;
+
+    text-align: center;
+
+    color: #000000;
+    margin: 0 0 10px;
+}
+
+.section__header-desc {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #999999;
+}
+
+.section__header-desc p{
+    margin-top: 0;
+}

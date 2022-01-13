@@ -1,0 +1,54 @@
+
+.products-wrapper {
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px; /* отступ для рядов работает и в флексах и в гридах */
+}
+
+.product-link{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.product-link:hover {
+    opacity: 0.8; /*прозрачность*/
+}
+
+.product {
+    text-align: center;
+    max-width: 270px;
+}
+
+.product__img {
+    display: block;
+}
+
+.product__title {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+
+.product__price {
+    text-align: center;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.product__price-old {
+    color: #999999;
+    margin-right: 10px;
+}
+
+.product__price-new {
+    font-weight: bold;
+    color: #F72464;
+}
