@@ -31,10 +31,6 @@
     line-height: 1.5;
 }
 
-.header__btn {
-
-}
-
 .button {
     display: inline-block; /* Чтобы ширина была по размеру контента */
     padding: 12px 33px 13px;
@@ -44,7 +40,6 @@
 
     font-family: 'Playfair Display', serif;
     font-style: normal;
-    text-decoration: none;
     font-weight: normal;
     font-size: 26px;
     line-height: 1;
@@ -58,4 +53,15 @@
 .button:hover{
     box-shadow: 0 4px 25px rgba(123, 12, 45, 0.671);
     background-color: #F72464;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.navbar-brand {
+    margin: 0 0 20px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 96px;
 }

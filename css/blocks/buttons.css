@@ -1,6 +1,7 @@
 .button-outline:hover {
     background-color: #F72464;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .button-outline {

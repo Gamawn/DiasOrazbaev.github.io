@@ -1,15 +1,15 @@
 .nav {
     padding: 40px 0; /* first padding from up down second left right */
-
+    font-family: 'Playfair Display', serif;
 }
-
+/*
 .nav__row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+}*/
 
-.nav__logo, a.nav__logo {
+.navbar-brand, a.navbar-brand{
     text-decoration: none;
 
     font-style: normal;
@@ -20,38 +20,36 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
-a.nav__logo:hover {
+.navbar-brand:hover {
     color: #F72464;
 }
 
-.nav__list {
+.nav-list {
     display: flex;
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-.nav__item {
+.nav-item {
     margin-left: 30px;
     font-size: 18px;
+    color: black;
 }
 
 /* Property for last nav__item */
-.nav__item:last-child {
+.nav-item:last-child {
     margin-right: 0;
 }
 
-.nav__link {
+.nav-link {
+    font-size: 1.2rem;
     text-decoration: none;
     color: black;
 }
 
-.nav__link:hover {
+.nav-link:hover {
     color: #F72464;
-}
-
-.nav__cart {
-
 }
 
 .nav__cart-link {
