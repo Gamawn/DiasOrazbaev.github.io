@@ -1,12 +1,14 @@
-@import "./blocks/base.css";
+@import "blocks/base.css";
 @import "blocks/buttons.css";
 
-@import "./blocks/navigation.css";
-@import "./blocks/header.css";
+@import "blocks/navigation.css";
+@import "blocks/header.css";
 @import "blocks/featured.css";
 @import "blocks/section-header.css";
 @import "blocks/products.css";
 @import "blocks/info-section.css";
+@import "blocks/blog.css";
+@import "blocks/featured-info.css";
 /*
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Playfair Display', serif;

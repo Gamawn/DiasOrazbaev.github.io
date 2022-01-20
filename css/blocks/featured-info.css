@@ -1,12 +1,14 @@
-.info-section {
+
+.featured-info-section {
+    margin-top: 90px;
+    margin-bottom: 90px;
     padding: 50px 0;
     position: relative;
     background-size: cover;
-    background: url("./../../img/info/bg.jpg") center;
-    margin-bottom: 50px;
+    background: url("./../../img/info/bg2.jpg") center;
 }
 
-.info-section:before {
+.featured-info-section:before {
     content: ""; /*for displaying*/
     position: absolute;
     top: 0;
@@ -20,7 +22,7 @@
 
 }
 
-.info-section__row {
+.featured-info-section__row {
     display: flex;
     justify-content: space-between;
     position: relative; /* for working z-index and not effect pos of element */

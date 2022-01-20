@@ -15,3 +15,7 @@ body {
     width: 1170px;
     margin: 0 auto;
 }
+.blog {
+    padding-top: 70px;
+    padding-bottom: 45px;
+}
