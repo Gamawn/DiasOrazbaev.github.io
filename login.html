@@ -7,8 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login Page</title>
     <link rel="stylesheet" href="./css/login.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-
+    <script src="js/showPassword.js"></script>
+    <script src="js/validate.js"></script>
 </head>
 <body>
 <div class="login-form">
@@ -17,14 +19,17 @@
         <div class="content">
             <div class="input-field">
                 <label>
-                    <input type="email" placeholder="Email" autocomplete="nope">
+                    <input type="email" placeholder="Email" autocomplete="nope" id="Email">
+                    <span id="error_email" class="text-danger"></span>
                 </label>
             </div>
             <div class="input-field">
                 <label>
-                    <input type="password" placeholder="Password" autocomplete="new-password">
+                    <input type="password" placeholder="Password" autocomplete="new-password" id="password">
+                    <span id="error_password" class="text-danger"></span>
                 </label>
             </div>
+            <input type="checkbox" onclick="show_password()" class="checkbox">  Show password </br>
             <a href="#" class="link">Forgot Your Password?</a> <br>
             <a href="register.html" class="link">Do not have account?</a>
         </div>

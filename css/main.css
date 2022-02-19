@@ -9,7 +9,22 @@
 @import "blocks/info-section.css";
 @import "blocks/blog.css";
 @import "blocks/featured-info.css";
+@import "blocks/upper.css";
 /*
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Playfair Display', serif;
  */
+
+html {
+    scroll-behavior: smooth;
+}
+
+#mute-toggle{
+    width: 16px;
+    height: 16px;
+    background: url(/img/mute/unmute.png); !important;
+    cursor: pointer;
+}
+#mute-toggle.toggled{
+    background: url(/img/mute/mute.png) !important;
+}

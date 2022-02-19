@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 .login-form {
     background: #FFFFFF;
     width: 500px;
@@ -64,4 +63,12 @@ a.link {
 }
 a.link:hover {
     color: #F72464;
+}
+
+.text-danger {
+    color: #F72464;
+}
+
+.checkbox {
+    margin-top: 10px;
 }
